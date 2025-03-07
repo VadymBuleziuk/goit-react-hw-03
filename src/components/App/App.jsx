@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
 import ContactList from "../ContactList/ContactLIst";
 import SearchBox from "../SearchBox/SearchBox";
-import ContactForm from "../ContactForm/COntactForm";
+import ContactForm from "../ContactForm/ContactForm";
 
 export default function App() {
   const defaultUsers = [
